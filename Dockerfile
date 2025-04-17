@@ -4,7 +4,7 @@ FROM node:18-bullseye
 # Set working directory
 WORKDIR /app
 
-RUN git clone https://github.com/peterbinary/Chat-Site7.git /app
+RUN git clone https://github.com/seangarett/Chat-Site1.git /app
 
 # Set correct permissions
 RUN chmod -R 777 /app
